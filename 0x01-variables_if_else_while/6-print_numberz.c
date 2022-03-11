@@ -14,6 +14,6 @@ int main(void)
 		putchar(i);
 		i++;
 	} while (i < 58);
-	putchar(32);
+	putchar(10);
 	return (0);
 }
