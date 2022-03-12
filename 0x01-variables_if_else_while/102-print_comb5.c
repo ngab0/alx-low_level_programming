@@ -18,13 +18,13 @@ int main(void)
 			{
 				for (l = 48; l < 58; l++)
 				{
-					putchar(32);
 					putchar(i);
 					putchar(j);
 					putchar(32);
 					putchar(k);
 					putchar(l);
 					putchar(44);
+					putchar(32);
 				}
 			}
 		}
