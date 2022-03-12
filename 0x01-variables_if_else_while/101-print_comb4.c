@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - print all combinations of double digits in base10
+* main - print all possible combinations of 3digits
 * Description : use the putchar function
 * Return: 0
 */
