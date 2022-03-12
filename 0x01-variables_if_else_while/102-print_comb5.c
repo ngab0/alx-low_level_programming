@@ -8,21 +8,22 @@
 
 int main(void)
 {
-	int i, j, k, l;
+	int i , j;
 
-	for (i = 48; i < 58; i++)
+	for (i = 0; i < 100; i++)
 	{
-		for (j = 48; j < 58; j++)
+		j = i;
+		for (; j < 100; j++)
 		{
-			for (k = 48; k < 58; k++)
+			if (j != i)
 			{
-				for (l = 48; l < 58; l++)
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar(32);
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(32);
-					putchar(k);
-					putchar(l);
 					putchar(44);
 					putchar(32);
 				}
