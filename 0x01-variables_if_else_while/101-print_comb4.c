@@ -16,15 +16,17 @@ int main(void)
 		{
 			for (k = 48; k < 58; k++)
 			{
-				if (i != j && i != k && j != k)
-					if (i < j && j < k)
+				if (i != j && i != k && j != k && i < j && j < k)
+				{
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (i != 55)
 					{
-						putchar(i);
-						putchar(j);
-						putchar(k);
 						putchar(44);
 						putchar(32);
 					}
+				}
 			}
 		}
 	}
