@@ -3,10 +3,10 @@
 /**
 * main - prints the alphabet
 * Description : Uses _putchar function
-* Return: 0
+* Return: nothing
 */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
 
@@ -15,5 +15,4 @@ int main(void)
 		_putchar(i + 97);
 	}
 	_putchar(10);
-	return (0);
 }
