@@ -10,8 +10,7 @@
 
 int largest_number(int a, int b, int c)
 {
-	int largest = 0;
-	/*printf("%d\n", largest);*/
+	int largest;
 
 	if ((a > b && a > c) || (a == b && a > c) || (a == c && a > b))
 	{
