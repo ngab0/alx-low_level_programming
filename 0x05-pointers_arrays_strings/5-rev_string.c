@@ -17,10 +17,10 @@ j = length - 1;
 i = 0;
 while (j > i)
 {
-v1 = s[i];
-v2 = s[j];
-s[i] = v1;
-s[j] = v2;
+a = s[i];
+b = s[j];
+s[i] = a;
+s[j] = b;
 j--;
 i++;
 }
