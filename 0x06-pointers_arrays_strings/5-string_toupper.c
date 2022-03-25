@@ -1,7 +1,7 @@
 /**
  *string_toupper-a function that changes all
  *lowercase letters to uppercase
- *@s-pointer to input char
+ *@s:pointer to input char
  *Return: s
  */
 
