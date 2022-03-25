@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- *rot13- encoding a string 
+ *rot13- encoding a string
  *@s- the string to be encoded
  *Return: the encoded string
  */
 
 char *rot13(char *s)
 {
-	int i = 0; 
-        int j = 0;
+	int i = 0;
+	int j = 0;
 	char string_rot13[] = "NnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMm";
 	char string_alpha[] = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
 
@@ -27,4 +27,4 @@ char *rot13(char *s)
 		i++;
 	}
 	return (s);
-}		
+}	
