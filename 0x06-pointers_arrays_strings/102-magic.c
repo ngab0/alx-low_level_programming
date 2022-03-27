@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/*
- *main- make the value a[2] to 98
- *Description: just add one line
- *Return: zero
- */
-
 int main(void)
 {
 	int n;
